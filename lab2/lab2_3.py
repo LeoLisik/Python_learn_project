@@ -1,0 +1,8 @@
+x = float(input("Введите x = "))
+z = float(input("Введите z = "))
+a = float(input("Введите a = "))
+b = ((x ** 3 + z) / (x + 1)) - abs(x - a ** 5) + ((x ** (2 / 3) + z * x) / (3 - z ** 4))
+print("Результат = ", b)
+print("Целый результат = ", round(b))
+print("Десятичный результат = ", round(b, 1))
+print("Стотичный результат = ", round(b, 2))
