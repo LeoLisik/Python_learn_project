@@ -22,7 +22,7 @@ try:
     f.write(str(Sn))
     f.write(" S = ")
     f.write(str(S))
-except Exception:
+except:
     print("Запись в файл не удалась")
 else:
     print("Файл успешно записан")
